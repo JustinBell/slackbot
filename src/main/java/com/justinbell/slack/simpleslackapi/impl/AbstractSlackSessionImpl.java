@@ -12,7 +12,7 @@ import com.justinbell.slack.simpleslackapi.listeners.SlackChannelRenamedListener
 import com.justinbell.slack.simpleslackapi.listeners.SlackChannelUnarchivedListener;
 import com.justinbell.slack.simpleslackapi.listeners.SlackMessagePostedListener;
 import com.justinbell.slack.simpleslackapi.listeners.SlackMessageUpdatedListener;
-import com.ullink.slack.simpleslackapi.*;
+import com.justinbell.slack.simpleslackapi.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;

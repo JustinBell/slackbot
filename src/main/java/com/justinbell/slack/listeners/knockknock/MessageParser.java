@@ -1,5 +1,7 @@
 package com.justinbell.slack.listeners.knockknock;
 
+import com.justinbell.slack.Config;
+
 /**
  * Created by Justin.Bell on 7/1/2015.
  */
@@ -7,7 +9,7 @@ public class MessageParser
 {
     public static MessageType ParseMessage(String message, Joke joke) {
         String lowerCaseMessage = message.toLowerCase();
-        if(lowerCaseMessage.matches(".*justinbot.*tell.*knock *knock.*")) {
+        if(lowerCaseMessage.matches(".*" + Config.getUsername() + ".*tell.*knock *knock.*")) {
             return MessageType.INITIALIZER;
         } else if (joke != null) {
             if(lowerCaseMessage.matches("who.*there.*")) {
