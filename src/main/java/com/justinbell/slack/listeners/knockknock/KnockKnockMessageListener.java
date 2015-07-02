@@ -15,7 +15,7 @@ public class KnockKnockMessageListener implements SlackMessagePostedListener
 {
 
     private static final String BOT_ID = "U073FFFGB";
-    private static final Channel CHANNEL = Channel.BOTTEST;
+    private static final Channel CHANNEL = Channel.GENERAL;
     private Joke currentJoke;
 
     @Override
